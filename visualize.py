@@ -4,8 +4,12 @@ import matplotlib.pyplot as plt
 plt.rcParams['figure.figsize'] = (18, 12)
 
 
-# format the coords message box
 def price(x):
+    """
+    format the coords message box
+    :param x: data to be formatted
+    :return: formatted data
+    """
     return '$%1.2f' % x
 
 
